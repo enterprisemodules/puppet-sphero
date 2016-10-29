@@ -1,0 +1,12 @@
+HOSTS:
+  host1.example.com:
+    roles:
+      - master
+    platform: el-6-x86_64
+    box : enterprisemodules/centos-6.6-64-puppet
+    hypervisor: vagrant
+CONFIG:
+  vagrant_hostname: host1.example.com
+  type: foss
+  log_level: warn
+

@@ -1,0 +1,88 @@
+{
+  "name": "enterprisemodules-sphero",
+  "version": "0.0.1",
+  "author": "Bert Hajee, Enterprise Modules B.V.",
+  "summary": "the custom types needed to manage a Sphero robot",
+  "license": "Enterprise Modules Open Source License. Check the license file",
+  "project_page": "https://github.com/enterprisemodules/sphero",
+  "source": "https://github.com/enterprisemodules/sphero",
+  "description": "the custom types needed to a Sphero 2.0 robot with puppet. This is mostly a learing project",
+  "dependencies": [
+    {"name":"hajee/easy_type","version_requirement":">= 0.15.5"}
+  ],
+  "operatingsystem_support": [
+      {
+        "operatingsystem": "RedHat",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "CentOS",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "OracleLinux",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "Scientific",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "SLES",
+        "operatingsystemrelease": [
+          "11 SP1"
+        ]
+      },
+      {
+        "operatingsystem": "Debian",
+        "operatingsystemrelease": [
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "Ubuntu",
+        "operatingsystemrelease": [
+          "10.04",
+          "12.04"
+        ]
+      },
+      {
+        "operatingsystem": "Solaris",
+        "operatingsystemrelease": [
+          "10",
+          "11"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "name": "pe",
+        "version_requirement": ">=2.7.20"
+      },
+      {
+        "name": "puppet",
+        "version_requirement": ">=2.7.20"
+      }
+    ]
+}

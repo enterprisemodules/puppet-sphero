@@ -1,0 +1,4 @@
+fixtures:
+  repositories:
+    easy_type: 
+      repo: 'https://a9d3e7385d6e50575580b9fe65e514b81f8e3505@github.com/enterprisemodules/easy_type.git'
